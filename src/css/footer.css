@@ -1,0 +1,62 @@
+
+.footer-section
+ {
+	background: #0f0f0f;
+	width: 92%;
+	margin: 0 auto;
+	flex-direction: column;
+	border-radius: 5px;
+	padding: 3rem;
+	position: relative;
+}
+
+.ScrollUp {
+	background: #0288d1;
+	width: 50px;
+	height: 80px;
+	position: absolute;
+	top: -38px;
+	left: 50%;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+.arrow {
+	font-size: 4rem;
+	color: #fff;
+	transition-duration: 0.4s;
+}
+.arrow:hover {
+	transform: scale(1.1);
+}
+.footer-icons {
+	display: flex;
+	justify-content: center;
+
+	margin: 3rem 0;
+}
+.tw,
+.fb,
+.li,
+.gi {
+	color: #fff;
+	font-size: 1.5rem;
+	margin-left: 1rem;
+}
+
+.tw:hover,
+.li:hover,
+.fb:hover,
+.gi:hover {
+	color: #1976d2;
+	cursor: pointer;
+	animation: icon-spin 0.5s linear;
+}
+.footer-section p {
+	color: #616161;
+	text-align: center;
+}
+.footer-section span {
+	color: #fff;
+}
+

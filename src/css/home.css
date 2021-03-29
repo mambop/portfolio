@@ -1,0 +1,135 @@
+.home-section {
+	background-color: #202731;
+	height: 55vh;
+	background-image: url('/img/home.png');
+	background-repeat: no-repeat;
+	background-size: 170%;
+	margin-bottom: 5rem;
+}
+.home-container {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	position: absolute;
+	top: 200px;
+	margin-left: 1rem;
+}
+.home-container span {
+	color: #fff;
+	font-size: 0.8rem;
+	margin-bottom: 1rem;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+
+.home-container > h1 {
+	color: #fff;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	font-weight: bolder;
+}
+
+.home-container > p {
+	color: #fff;
+	font-size: 1rem;
+	font-weight: bolder;
+	margin-bottom: 1rem;
+	letter-spacing: 2px;
+}
+@media only screen and (min-width: 360px) {
+	.home-section {
+		height: 60vh;
+		background-size: 140%;
+		background-position: left -40% bottom -30px;
+	}
+	.home-container {
+		margin-top: -20px;
+	}
+	.home-container > span {
+		font-size:1rem;
+	}
+
+	.home-container > h1 {
+		font-size: 1.5rem;
+	}
+
+	.home-container > p {
+		font-size: 1rem;
+	}
+}
+
+@media only screen and (min-width: 480px) {
+	.home-section {
+		height: 70vh;
+		background-size: 120%;
+		background-position: left -90% bottom 0px;
+	}
+	.home-container > span {
+		font-size: 1rem;
+	}
+
+	.home-container > h1 {
+		font-size: 3rem;
+	}
+
+	.home-container > p {
+		font-size: 1.4rem;
+	}
+}
+
+@media only screen and (min-width: 555px) {
+	.home-section {
+		height: 100vh;
+		background-size: 90%;
+		background-position: left 400% bottom 0px;
+	}
+	.home-container {
+		margin-top: -20px;
+		margin-left: 50px;
+	}
+	.home-container > span {
+		font-size: 1.5rem;
+	}
+
+	.home-container > h1 {
+		font-size: 4rem;
+	}
+
+	.home-container > p {
+		font-size: 2rem;
+	}
+}
+@media only screen and (device-width: 768px) {
+	.home-section {
+		height: 100vh;
+		background-size: 160%;
+		background-position: left 5% bottom 0px;
+	}
+	.home-container {
+		margin-top: 9rem;
+	}
+}
+
+@media only screen and (min-width: 837px) {
+	.home-section {
+		height: 100vh;
+		background-size: 70%;
+		background-position: left 150% bottom 0px;
+	}
+}
+
+@media only screen and (min-width: 954px) {
+	.home-section {
+		height: 100vh;
+		background-size: 60%;
+		background-position: left 110% bottom 0px;
+	}
+}
+
+@media only screen and (min-width: 1280px) {
+	.home-section {
+		background-size: 45%;
+		background-position: left 110% bottom 0px;
+	}
+}

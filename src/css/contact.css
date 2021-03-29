@@ -1,0 +1,135 @@
+.contact-section {
+	margin-bottom: 5rem;
+}
+.contact-wrapper {
+	background: #0f0f0f;
+	height: auto;
+	width: 92%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	padding: 6rem 0 2rem 0;
+	border-radius: 5px;
+}
+.contact-wrapper h1 {
+	color: #fff;
+	font-size: 1.7rem;
+	margin-top: 0.5rem;
+	margin-bottom: 3rem;
+	text-align: center;
+	display: block;
+}
+
+.contacts {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	list-style: none;
+	color: #0288d1;
+
+}
+.contacts li:first-child {
+	margin-right: 2.5rem;
+}
+.contacts li:before {
+	content: '→';
+	font-size: 2rem;
+}
+.contacts p {
+	color: #fff;
+	font-size: 1rem;
+	display: inline;
+}
+.contacts span {
+	color: #bdbdbd;
+	display: block;
+	margin-left: 2rem;
+}
+.form ul {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	padding: 1.5rem;
+	width: 100%;
+	margin: 0 auto;
+}
+.form input[type='text'],
+[type='email'],
+textarea {
+	padding: 0.5rem;
+	width: 100%;
+	font-size: 1rem;
+	background: #0f0f0f;
+	color: #fff;
+	border: 1px solid #616161;
+}
+.form input[type='text']:focus,
+[type='email']:focus{
+	background: #fff;
+}
+
+.form input:required:focus,
+.form textarea:required:focus {
+	border: 1px solid red;
+	outline: none;
+	background: #fff;
+	color:#000;
+}
+
+.form li {
+	padding: 0.5rem;
+}
+
+.form input[type='submit'] {
+	width: 35%;
+	border: 2px solid;
+	color: #0288d1;
+	padding: 0.5rem;
+	font-size: 1rem;
+	font-weight: bold;
+	border-radius: 50%;
+	cursor: pointer;
+	transition-duration: 0.4s;
+	background-color: transparent;
+}
+.form li:nth-child(4) {
+	display: flex;
+	justify-content: center;
+}
+.form input[type='submit']:hover {
+	color: #fff;
+	border: none;
+	background-color: #4cc9f0;
+	box-shadow: 5px 5px 40px 5px rgba(76, 201, 240, 0.5);
+}
+.form input[type='submit']:focus { 
+	outline: none;
+}
+
+@media only screen and (min-width: 575px) {
+	.form ul {
+		width: 90%;
+	}
+}
+@media only screen and (min-width: 767px) {
+	.form ul {
+		width: 60%;
+	}
+	.form input[type='text'],
+	[type='email'],
+	textarea {
+
+		font-size: 1.2rem;
+	}
+	.contacts p {
+		font-size: 1.5rem;
+	}
+	.contacts span {
+		font-size: 1rem;
+	}
+	.form input[type='submit'] {
+		width:40%;
+		font-size: 1.5rem;;
+	}
+}
